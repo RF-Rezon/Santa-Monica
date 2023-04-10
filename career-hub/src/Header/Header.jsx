@@ -2,6 +2,7 @@ import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import FeaturedJobs from '../UnderHeader/FeaturedJobs';
 import JobCategolyList from '../UnderHeader/JobCategolyList';
+import JobDetails from '../JobDetails/JobDetails';
 
 const Header = () => {
     return (
@@ -28,6 +29,7 @@ const Header = () => {
             </div>
             <JobCategolyList/>
             <FeaturedJobs/>
+            <JobDetails/>
         </div>
     );
 };

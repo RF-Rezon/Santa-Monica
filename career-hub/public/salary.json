@@ -1,0 +1,118 @@
+{
+  "featured_jobs": [
+    {
+      "id": 1,
+      "image": "../assets/All Images/google-1-1 1.png",
+      "title": "Software Engineer",
+      "company": "Acme Inc.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "USA"
+      },
+      "salary": {
+        "min": 100000,
+        "max": 150000
+      },
+      "jobType": {
+        "full": "Full Time",
+        "half": "Remote"
+      }
+    },
+    {
+      "id": 2,
+      "image": "../assets/All Images/netflix-4 1.png",
+      "title": "Data Analyst",
+      "company": "Globex Corp.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "USA"
+      },
+      "salary": {
+        "min": 80000,
+        "max": 120000
+      },
+      "jobType": {
+        "full": "Full Time",
+        "half": "Remote"
+      }
+    },
+    {
+      "id": 3,
+      "image": "../assets/All Images/tesla-9 1.png",
+      "title": "Marketing Manager",
+      "company": "Initech LLC",
+      "location": {
+        "city": "Chicago",
+        "state": "IL",
+        "country": "USA"
+      },
+      "salary": {
+        "min": 90000,
+        "max": 130000
+      },
+      "jobType": {
+        "full": "Full Time",
+        "half": "Remote"
+      }
+    },
+    {
+      "id": 4,
+      "image": "../assets/All Images/Group 10021.png",
+      "title": "Product Designer",
+      "company": "Design Co.",
+      "location": {
+        "city": "Los Angeles",
+        "state": "CA",
+        "country": "USA"
+      },
+      "salary": {
+        "min": 95000,
+        "max": 140000
+      },
+      "jobType": {
+        "full": "Full Time",
+        "half": "Remote"
+      }
+    },
+    {
+      "id": 5,
+      "image": "../assets/All Images/google-1-1 1.png",
+      "title": "Business Analyst",
+      "company": "Strategy Inc.",
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "country": "USA"
+      },
+      "salary": {
+        "min": 85000,
+        "max": 125000
+      },
+      "jobType": {
+        "full": "Full Time",
+        "half": "Remote"
+      }
+    },
+    {
+      "id": 6,
+      "image": "../assets/All Images/tesla-9 1.png",
+      "title": "UX Researcher",
+      "company": "Pixel Co.",
+      "location": {
+        "city": "Seattle",
+        "state": "WA",
+        "country": "USA"
+      },
+      "salary": {
+        "min": 90000,
+        "max": 135000
+      },
+      "jobType": {
+        "full": "Full Time",
+        "half": "Remote"
+      }
+    }
+  ]
+}
