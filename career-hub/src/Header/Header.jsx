@@ -1,4 +1,5 @@
 import React from 'react';
+import { useLoaderData } from 'react-router-dom';
 import FeaturedJobs from '../UnderHeader/FeaturedJobs';
 import JobCategolyList from '../UnderHeader/JobCategolyList';
 
