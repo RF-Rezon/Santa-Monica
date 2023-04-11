@@ -9,8 +9,8 @@ const Nav = () => {
                             <p className='text-3xl font-bold'>Santa Monica</p>
                             <div className='flex items-center justify-between space-x-6 gg my-4'>
                                 <Link to= "/"><p>Home</p></Link>
-                                <Link to= "/statistics"><p>Statistics</p></Link>
                                 <Link to= "/applied_jobs"><p>Applied Jobs</p></Link>
+                                <Link to= "/statistics"><p>Statistics</p></Link>
                                 <Link to= "/blog"><p>Blog</p></Link>
 
                             </div>

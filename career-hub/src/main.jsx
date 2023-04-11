@@ -4,6 +4,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 import Applied_jobs from "./Appleid Jobs/Appleid_Jobs";
 import Blog from "./Blog/Blog";
+import ErrorPage from "./Error/ErrorPage";
 import Header from "./Header/Header";
 import JobDetails from "./JobDetails/JobDetails";
 import Main from "./Layout/Main";
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
         path: "details/:id",
         element: <JobDetails/>,
         loader: ()=> fetch("/salary.json")
+      },
+      {
+        path: "*",
+        element: <ErrorPage/>
       }
     ],
   },

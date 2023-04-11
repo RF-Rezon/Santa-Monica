@@ -6,7 +6,7 @@ const JobDetails = () => {
   const xp = useLoaderData();
 
   const [body, setBody] = useState([]);
-  const { email, phone, min_salary, max_salary,title } = body;
+  const { email, phone, min_salary, max_salary,title,company } = body;
 
   useEffect(() => {
     const matchData = xp.featured_jobs.filter((singleData) => singleData.id == id);
@@ -15,13 +15,17 @@ const JobDetails = () => {
     }
   }, []);
 
+  const hander = ()=>{
+    window.localStorage.setItem("fetchedData", JSON.stringify(body));
+  }
+
   return (
     <div className="mb-20">
       <div className="mb-20">
-        <p className="bt">Job Details:</p>
+        <p className="bt">Job Details</p>
       </div>
       <div className="flex mt-10">
-        <div className="basis-2/3 space-y-3 mr-5">
+        <div className="basis-2/3 space-y-2 mr-5">
           <p className="bt-1">Job Description:</p>{" "}
           <p className="gg">
             A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and
@@ -45,6 +49,11 @@ const JobDetails = () => {
             <h2 className="bt-1 font-extrabold">Job Details</h2>
             <hr />
             <div className="flex items-center justify-start">
+              <img src="../../assets/Icons/business 1.png" alt="" />
+              <p className="bt-1 mx-3">Company: </p>
+              <p className="gg">{company}</p>
+            </div>
+            <div className="flex items-center justify-start">
               <img src="../../assets/Icons/Frame.png" alt="" />
               <p className="bt-1 mx-3">Salary: </p>
               <p className="gg">{min_salary} to {max_salary} (Per Month)</p>
@@ -67,7 +76,7 @@ const JobDetails = () => {
               <p className="gg">{email}</p>
             </div>
           </div>
-          <button></button>
+          <div className="flex items-center justify-center mt-6"><button onClick={hander} className="px-16 py-2 text-base font-semibold text-purple-100 rounded bg-gradient-to-r from-purple-600 to-purple-400">Apply Now</button></div>
         </div>
       </div>
     </div>
