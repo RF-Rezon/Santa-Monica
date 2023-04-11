@@ -4,7 +4,6 @@ import FeatureJobs2 from './FeatureJobs2';
 const FeaturedJobs = () => {
     const [count, setCount] = useState([]);
     const [initial, setInitial] = useState(); 
-
      
     useEffect( ()=>{
          fetch("salary.json")

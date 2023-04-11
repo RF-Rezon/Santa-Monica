@@ -17,7 +17,8 @@ const FeatureJobs2 = ({features}) => {
                             <div className='gg py-3'>
                                 <span>logo {location.city}, {location.country} logo Salary : {salary.min}k - {salary.max}k</span>
                             </div>
-                            <div><Link to ={id} ><button className='p-b'>View Details</button></Link></div>
+                            
+                            <div><Link to={`/details/${id}`}><button className='p-b'>View Details</button></Link></div>
                         </div>
                     </div>
         </div>

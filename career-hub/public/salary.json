@@ -2,6 +2,8 @@
   "featured_jobs": [
     {
       "id": 1,
+      "phone": 212113113,
+      "email": "somebody@gmail.com",
       "image": "../assets/All Images/google-1-1 1.png",
       "title": "Software Engineer",
       "company": "Acme Inc.",
@@ -21,6 +23,8 @@
     },
     {
       "id": 2,
+      "phone": 212113232,
+      "email": "somebody2@gmail.com",
       "image": "../assets/All Images/netflix-4 1.png",
       "title": "Data Analyst",
       "company": "Globex Corp.",
@@ -40,6 +44,8 @@
     },
     {
       "id": 3,
+      "phone": 21211312232,
+      "email": "somebody3@gmail.com",
       "image": "../assets/All Images/tesla-9 1.png",
       "title": "Marketing Manager",
       "company": "Initech LLC",
@@ -59,6 +65,8 @@
     },
     {
       "id": 4,
+      "phone": 2121131124242,
+      "email": "somebody4@gmail.com",
       "image": "../assets/All Images/Group 10021.png",
       "title": "Product Designer",
       "company": "Design Co.",
@@ -78,6 +86,8 @@
     },
     {
       "id": 5,
+      "phone": 212113124224,
+      "email": "somebody5@gmail.com",
       "image": "../assets/All Images/google-1-1 1.png",
       "title": "Business Analyst",
       "company": "Strategy Inc.",
@@ -97,6 +107,8 @@
     },
     {
       "id": 6,
+      "phone": 2121131134242,
+      "email": "somebody6@gmail.com",
       "image": "../assets/All Images/tesla-9 1.png",
       "title": "UX Researcher",
       "company": "Pixel Co.",
