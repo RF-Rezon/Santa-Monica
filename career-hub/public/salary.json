@@ -12,10 +12,8 @@
         "state": "CA",
         "country": "USA"
       },
-      "salary": {
-        "min": 100000,
-        "max": 150000
-      },
+      "min_salary": 10000,
+      "max_salary": 20000,
       "jobType": {
         "full": "Full Time",
         "half": "Remote"
@@ -33,10 +31,8 @@
         "state": "NY",
         "country": "USA"
       },
-      "salary": {
-        "min": 80000,
-        "max": 120000
-      },
+      "min_salary": 10000,
+      "max_salary": 25000,
       "jobType": {
         "full": "Full Time",
         "half": "Remote"
@@ -54,10 +50,8 @@
         "state": "IL",
         "country": "USA"
       },
-      "salary": {
-        "min": 90000,
-        "max": 130000
-      },
+      "min_salary": 20000,
+      "max_salary": 27000,
       "jobType": {
         "full": "Full Time",
         "half": "Remote"
@@ -75,10 +69,8 @@
         "state": "CA",
         "country": "USA"
       },
-      "salary": {
-        "min": 95000,
-        "max": 140000
-      },
+      "min_salary": 28000,
+      "max_salary": 37000,
       "jobType": {
         "full": "Full Time",
         "half": "Remote"
@@ -96,10 +88,8 @@
         "state": "MA",
         "country": "USA"
       },
-      "salary": {
-        "min": 85000,
-        "max": 125000
-      },
+      "min_salary": 90000,
+      "max_salary": 100000,
       "jobType": {
         "full": "Full Time",
         "half": "Remote"
@@ -117,10 +107,8 @@
         "state": "WA",
         "country": "USA"
       },
-      "salary": {
-        "min": 90000,
-        "max": 135000
-      },
+      "min_salary": 50000,
+      "max_salary": 100000,
       "jobType": {
         "full": "Full Time",
         "half": "Remote"

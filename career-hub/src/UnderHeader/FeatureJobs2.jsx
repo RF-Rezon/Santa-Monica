@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const FeatureJobs2 = ({features}) => {
-    const { id, image, title, company, location, salary, jobType} = features;
+    const { id, image, title, company, location, min_salary, max_salary, jobType} = features;
     return (
         <div>
              <div className="py-10 flex flex-col justify-evenly border border-gray-400 pl-10 rounded-md">
@@ -15,7 +15,7 @@ const FeatureJobs2 = ({features}) => {
                             <button className='p-border'>{jobType.full}</button>
                             </div>
                             <div className='gg py-3'>
-                                <span>logo {location.city}, {location.country} logo Salary : {salary.min}k - {salary.max}k</span>
+                                <span>logo {location.city}, {location.country} logo Salary : {min_salary} to {max_salary}</span>
                             </div>
                             
                             <div><Link to={`/details/${id}`}><button className='p-b'>View Details</button></Link></div>

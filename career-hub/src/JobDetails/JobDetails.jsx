@@ -2,22 +2,20 @@ import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 
 const JobDetails = () => {
-    const {id} = useParams();
-    const xp = useLoaderData();
+  const { id } = useParams();
+  const xp = useLoaderData();
 
-  const [body, setBody] = useState("");
-  const {company,email,jobType,location,phone,salary,title
-  } = body;
-  console.log(body)
+  const [body, setBody] = useState([]);
+  const { email, phone, min_salary, max_salary,title } = body;
 
-  useEffect(()=>{
-      const matchData = xp.featured_jobs.filter(singleData => (singleData.id) == id);
-      setBody(matchData[0])
-    },[]);
-    
-  
+  useEffect(() => {
+    const matchData = xp.featured_jobs.filter((singleData) => singleData.id == id);
+    if (matchData.length > 0) {
+      setBody(matchData[0]);
+    }
+  }, []);
+
   return (
-
     <div className="mb-20">
       <div className="mb-20">
         <p className="bt">Job Details:</p>
@@ -49,7 +47,7 @@ const JobDetails = () => {
             <div className="flex items-center justify-start">
               <img src="../../assets/Icons/Frame.png" alt="" />
               <p className="bt-1 mx-3">Salary: </p>
-              <p className="gg">{salary.min}k - {salary.max}k (Per Month)</p>
+              <p className="gg">{min_salary} to {max_salary} (Per Month)</p>
             </div>
             <div className="flex items-center justify-start">
               <img src="../../assets/Icons/Frame-1.png" alt="" />
@@ -67,11 +65,6 @@ const JobDetails = () => {
               <img src="../../assets/Icons/Frame-3.png" alt="" />
               <p className="bt-1 mx-3">Email: </p>
               <p className="gg">{email}</p>
-            </div>
-            <div className="flex items-center justify-start">
-              <img src="../../assets/Icons/Frame-4.png" alt="" />
-              <p className="bt-1 mx-3">Address: </p>
-              <p className="gg">{location.city}, {location.country}</p>
             </div>
           </div>
           <button></button>
