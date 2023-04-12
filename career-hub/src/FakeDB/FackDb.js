@@ -1,4 +1,3 @@
-export default Applied_jobs;
 
 const addToDb = id => {
     let applyJob = getselectJob();
@@ -11,14 +10,14 @@ const addToDb = id => {
         const newQuantity = quantity + 1;
         applyJob[id] = newQuantity;
     }
-    localStorage.setItem('apply-job-list', JSON.stringify(applyJob));
+    localStorage.setItem('fetchedData', JSON.stringify(applyJob));
 }
 
 const removeFromDb = id => {
     const applyJob = getselectJob();
     if (id in applyJob) {
         delete applyJob[id];
-        localStorage.setItem('apply-job-list', JSON.stringify(applyJob));
+        localStorage.setItem('fetchedData', JSON.stringify(applyJob));
     }
 }
 
@@ -26,7 +25,7 @@ const getselectJob = () => {
     let applyJob = {};
 
     //get the shopping cart from local storage
-    const storedCart = localStorage.getItem('apply-job-list');
+    const storedCart = localStorage.getItem('fetchedData');
     if (storedCart) {
         applyJob = JSON.parse(storedCart);
     }
@@ -41,3 +40,4 @@ export {
     getselectJob,
 
 };
+

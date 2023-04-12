@@ -6,18 +6,17 @@ const JobDetails = () => {
   const xp = useLoaderData();
 
   const [body, setBody] = useState([]);
-  const { email, phone, min_salary, max_salary,title,company } = body;
+
+  const { email, phone, min_salary, max_salary, title, company } = body;
 
   useEffect(() => {
-    const matchData = xp.featured_jobs.filter((singleData) => singleData.id == id);
-    if (matchData.length > 0) {
-      setBody(matchData[0]);
-    }
+    const matchData = xp.filter((singleData) => singleData.id == id);
+    setBody(matchData[0]);
   }, []);
 
-  const hander = ()=>{
+  const hander = () => {
     window.localStorage.setItem("fetchedData", JSON.stringify(body));
-  }
+  };
 
   return (
     <div className="mb-20">
@@ -56,7 +55,9 @@ const JobDetails = () => {
             <div className="flex items-center justify-start">
               <img src="../../assets/Icons/Frame.png" alt="" />
               <p className="bt-1 mx-3">Salary: </p>
-              <p className="gg">{min_salary} to {max_salary} (Per Month)</p>
+              <p className="gg">
+                {min_salary} to {max_salary} (Per Month)
+              </p>
             </div>
             <div className="flex items-center justify-start">
               <img src="../../assets/Icons/Frame-1.png" alt="" />
@@ -76,7 +77,14 @@ const JobDetails = () => {
               <p className="gg">{email}</p>
             </div>
           </div>
-          <div className="flex items-center justify-center mt-6"><button onClick={hander} className="px-16 py-2 text-base font-semibold text-purple-100 rounded bg-gradient-to-r from-purple-600 to-purple-400">Apply Now</button></div>
+          <div className="flex items-center justify-center mt-6">
+            <button
+              onClick={hander}
+              className="px-16 py-2 text-base font-semibold text-purple-100 rounded bg-gradient-to-r from-purple-600 to-purple-400"
+            >
+              Apply Now
+            </button>
+          </div>
         </div>
       </div>
     </div>

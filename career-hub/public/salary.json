@@ -1,118 +1,116 @@
-{
-  "featured_jobs": [
-    {
-      "id": 1,
-      "phone": 212113113,
-      "email": "somebody@gmail.com",
-      "image": "../assets/All Images/google-1-1 1.png",
-      "title": "Software Engineer",
-      "company": "Acme Inc.",
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "country": "USA"
-      },
-      "min_salary": 10000,
-      "max_salary": 20000,
-      "jobType": {
-        "full": "Full Time",
-        "half": "Remote"
-      }
+[
+  {
+    "id": 1,
+    "phone": 212113113,
+    "email": "somebody@gmail.com",
+    "image": "../assets/All Images/google-1-1 1.png",
+    "title": "Software Engineer",
+    "company": "Acme Inc.",
+    "location": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA"
     },
-    {
-      "id": 2,
-      "phone": 212113232,
-      "email": "somebody2@gmail.com",
-      "image": "../assets/All Images/netflix-4 1.png",
-      "title": "Data Analyst",
-      "company": "Globex Corp.",
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "country": "USA"
-      },
-      "min_salary": 10000,
-      "max_salary": 25000,
-      "jobType": {
-        "full": "Full Time",
-        "half": "Remote"
-      }
-    },
-    {
-      "id": 3,
-      "phone": 21211312232,
-      "email": "somebody3@gmail.com",
-      "image": "../assets/All Images/tesla-9 1.png",
-      "title": "Marketing Manager",
-      "company": "Initech LLC",
-      "location": {
-        "city": "Chicago",
-        "state": "IL",
-        "country": "USA"
-      },
-      "min_salary": 20000,
-      "max_salary": 27000,
-      "jobType": {
-        "full": "Full Time",
-        "half": "Remote"
-      }
-    },
-    {
-      "id": 4,
-      "phone": 2121131124242,
-      "email": "somebody4@gmail.com",
-      "image": "../assets/All Images/Group 10021.png",
-      "title": "Product Designer",
-      "company": "Design Co.",
-      "location": {
-        "city": "Los Angeles",
-        "state": "CA",
-        "country": "USA"
-      },
-      "min_salary": 28000,
-      "max_salary": 37000,
-      "jobType": {
-        "full": "Full Time",
-        "half": "Remote"
-      }
-    },
-    {
-      "id": 5,
-      "phone": 212113124224,
-      "email": "somebody5@gmail.com",
-      "image": "../assets/All Images/google-1-1 1.png",
-      "title": "Business Analyst",
-      "company": "Strategy Inc.",
-      "location": {
-        "city": "Boston",
-        "state": "MA",
-        "country": "USA"
-      },
-      "min_salary": 90000,
-      "max_salary": 100000,
-      "jobType": {
-        "full": "Full Time",
-        "half": "Remote"
-      }
-    },
-    {
-      "id": 6,
-      "phone": 2121131134242,
-      "email": "somebody6@gmail.com",
-      "image": "../assets/All Images/tesla-9 1.png",
-      "title": "UX Researcher",
-      "company": "Pixel Co.",
-      "location": {
-        "city": "Seattle",
-        "state": "WA",
-        "country": "USA"
-      },
-      "min_salary": 50000,
-      "max_salary": 100000,
-      "jobType": {
-        "full": "Full Time",
-        "half": "Remote"
-      }
+    "min_salary": 10000,
+    "max_salary": 20000,
+    "jobType": {
+      "full": "Full Time",
+      "half": "Remote"
     }
-  ]
-}
+  },
+  {
+    "id": 2,
+    "phone": 212113232,
+    "email": "somebody2@gmail.com",
+    "image": "../assets/All Images/netflix-4 1.png",
+    "title": "Data Analyst",
+    "company": "Globex Corp.",
+    "location": {
+      "city": "New York",
+      "state": "NY",
+      "country": "USA"
+    },
+    "min_salary": 10000,
+    "max_salary": 25000,
+    "jobType": {
+      "full": "Full Time",
+      "half": "Remote"
+    }
+  },
+  {
+    "id": 3,
+    "phone": 21211312232,
+    "email": "somebody3@gmail.com",
+    "image": "../assets/All Images/tesla-9 1.png",
+    "title": "Marketing Manager",
+    "company": "Initech LLC",
+    "location": {
+      "city": "Chicago",
+      "state": "IL",
+      "country": "USA"
+    },
+    "min_salary": 20000,
+    "max_salary": 27000,
+    "jobType": {
+      "full": "Full Time",
+      "half": "Remote"
+    }
+  },
+  {
+    "id": 4,
+    "phone": 2121131124242,
+    "email": "somebody4@gmail.com",
+    "image": "../assets/All Images/Group 10021.png",
+    "title": "Product Designer",
+    "company": "Design Co.",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA",
+      "country": "USA"
+    },
+    "min_salary": 28000,
+    "max_salary": 37000,
+    "jobType": {
+      "full": "Full Time",
+      "half": "Remote"
+    }
+  },
+  {
+    "id": 5,
+    "phone": 212113124224,
+    "email": "somebody5@gmail.com",
+    "image": "../assets/All Images/google-1-1 1.png",
+    "title": "Business Analyst",
+    "company": "Strategy Inc.",
+    "location": {
+      "city": "Boston",
+      "state": "MA",
+      "country": "USA"
+    },
+    "min_salary": 90000,
+    "max_salary": 100000,
+    "jobType": {
+      "full": "Full Time",
+      "half": "Remote"
+    }
+  },
+  {
+    "id": 6,
+    "phone": 2121131134242,
+    "email": "somebody6@gmail.com",
+    "image": "../assets/All Images/tesla-9 1.png",
+    "title": "UX Researcher",
+    "company": "Pixel Co.",
+    "location": {
+      "city": "Seattle",
+      "state": "WA",
+      "country": "USA"
+    },
+    "min_salary": 50000,
+    "max_salary": 100000,
+    "jobType": {
+      "full": "Full Time",
+      "half": "Remote"
+    }
+  }
+]

@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import FeatureJobs2 from './FeatureJobs2';
 
 
-
 const FeaturedJobs = () => {
     const [count, setCount] = useState([]);
     
@@ -16,7 +15,7 @@ const FeaturedJobs = () => {
     useEffect( ()=>{
          fetch("salary.json")
          .then(data => data.json())
-         .then(final=> setCount(final.featured_jobs))
+         .then(final=> setCount(final))
     },[])
     return (
         <div>
