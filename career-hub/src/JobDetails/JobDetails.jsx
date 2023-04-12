@@ -44,31 +44,31 @@ const JobDetails = () => {
             <h2 className="bt-1 font-extrabold">Job Details</h2>
             <hr />
             <div className="flex items-center justify-start">
-              <img src="../../assets/Icons/business 1.png" alt="" />
+              <img src="https://i.ibb.co/3db9gbY/Frame-4.png" alt="" />
               <p className="bt-1 mx-3">Company: </p>
               <p className="gg">{company}</p>
             </div>
             <div className="flex items-center justify-start">
-              <img src="../../assets/Icons/Frame.png" alt="" />
+              <img src="https://i.ibb.co/J5Cyn5H/Frame.png" alt="" />
               <p className="bt-1 mx-3">Salary: </p>
               <p className="gg">
                 {min_salary} to {max_salary} (Per Month)
               </p>
             </div>
             <div className="flex items-center justify-start">
-              <img src="../../assets/Icons/Frame-1.png" alt="" />
+              <img src="https://i.ibb.co/X82fhYN/Frame-1.png" alt="" />
               <p className="bt-1 mx-3">Job Title: </p>
               <p className="gg">{title}</p>
             </div>
             <h2 className="bt-1 font-extrabold">Contact Information</h2>
             <hr />
             <div className="flex items-center justify-start">
-              <img src="../../assets/Icons/Frame-2.png" alt="" />
+              <img src="https://i.ibb.co/YhN6pZL/Frame-2.png" alt="" />
               <p className="bt-1 mx-3">Phone: </p>
               <p className="gg">{phone}</p>
             </div>
             <div className="flex items-center justify-start">
-              <img src="../../assets/Icons/Frame-3.png" alt="" />
+              <img src="https://i.ibb.co/kg9RDVb/Frame-3.png" alt="" />
               <p className="bt-1 mx-3">Email: </p>
               <p className="gg">{email}</p>
             </div>

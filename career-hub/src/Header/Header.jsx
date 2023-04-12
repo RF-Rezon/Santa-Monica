@@ -22,7 +22,7 @@ const Header = () => {
                             </div>
                         </div>
                         <div className='my-10 md:my-0'>
-                            <img src="../../assets/All Images/P3OLGJ1 copy 1.png" alt="heder img" />
+                            <img src="https://i.ibb.co/XpnB7ch/P3-OLGJ1-copy-1.png" alt="heder img" />
                         </div>
                     </div>
                 </div>
