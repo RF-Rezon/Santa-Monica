@@ -15,7 +15,8 @@ const JobDetails = () => {
   }, []);
 
   const hander = () => {
-    window.localStorage.setItem("fetchedData", JSON.stringify(body));
+    const key = `fetchedData_${body.id}`
+    window.localStorage.setItem(key, JSON.stringify(body));
   };
 
   return (
