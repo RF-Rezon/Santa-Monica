@@ -7,7 +7,7 @@ const JobDetails = () => {
 
   const [body, setBody] = useState([]);
 
-  const { email, phone, min_salary, max_salary, title, company } = body;
+  const { email, phone, min_salary, max_salary, title, company, jd, jr } = body;
 
   useEffect(() => {
     const matchData = xp.filter((singleData) => singleData.id == id);
@@ -23,27 +23,22 @@ const JobDetails = () => {
       <div className="mb-20">
         <p className="bt">Job Details</p>
       </div>
-      <div className="flex mt-10">
-        <div className="basis-2/3 space-y-2 mr-5">
+      <div className="flex mt-10 flex-col md:flex-row">
+        <div className="basis-2/3 space-y-2 mr-5 p-10 md:p-0">
           <p className="bt-1">Job Description:</p>{" "}
           <p className="gg">
-            A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and
-            effective interfaces for software and web applications. This includes designing the layout, visual design,
-            and interactivity of the user interface.
+            {jd}
           </p>
           <p className="bt-1">Job Responsibility:</p>{" "}
           <p className="gg">
-            Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including
-            product management, engineering, and marketing, to ensure that the user interface is aligned with business
-            and technical requirements. You will need to be able to effectively communicate your design ideas and gather
-            feedback from other team members.
+            {jr}
           </p>
           <p className="bt-1">Educational Requirements:</p>
           <p className="gg">Bachelor degree to complete any reputational university.</p>
           <p className="bt-1">Experiences:</p>
           <p className="gg">2-3 Years in this field.</p>
         </div>
-        <div className="basis-1/3 p-bg ml-4">
+        <div className="basis-1/3 p-bg ml-4 p-10 md:p-0">
           <div className="space-y-2 p-5">
             <h2 className="bt-1 font-extrabold">Job Details</h2>
             <hr />

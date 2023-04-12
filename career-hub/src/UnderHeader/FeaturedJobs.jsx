@@ -22,7 +22,7 @@ const FeaturedJobs = () => {
             <div className="max-w-7xl mx-auto">
                 <p className='bt'>Featured Jobs</p>
                 <p className='gg text-center mb-20'>Explore thousands of job opportunities with all the information you need. Its your future</p>
-                <div className='grid grid-cols-1 md:grid-cols-2 gap-6 my-8'>
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-6 my-8 p-10 md:p-0'>
                    {count.slice(0, seeMore ? 6 : 4).map(features=> <FeatureJobs2 features={features} key={features.id}/>)}
                 </div>
                 <div className='flex items-center justify-center my-20'>{
